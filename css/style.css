@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    width: 50%;
+    border: 5px solid red;
+    display: flex;
+    text-align: center;
+    
+}
+.child{
+    width: 50%;
+    height: 20vh;
+    border: 8px solid purple;
+    transition: 0.5s;
+}
+.child:hover{
+    width: 50%;
+    background-color: black;
+}
